@@ -1,4 +1,5 @@
-body {
-	background: red;
-	display: flex;
-}
+
+@import "variables";
+@import "slider";
+@import "base";
+@import "header";
