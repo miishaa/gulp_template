@@ -1,0 +1,58 @@
+.container {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin:  0 auto;
+}
+.slider {
+    background: url(../images/dest/mountaine.jpg) 50%/cover no-repeat;
+    min-height: 100vh;
+}
+.header {
+    position: absolute;
+    width: 100%;
+    top: 40px;
+    left: 0;
+}
+
+.header__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+
+		// .logo__link
+
+		&__link {
+		}
+
+		// .logo__icon
+
+		&__icon {
+		}
+}
+.navigation {
+
+		// .navigation__item
+
+		&__item {
+            padding: 0 15px;
+            color: #fff;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: normal;
+        }
+}
+.search {
+
+		// .search__link
+
+		&__link + &__link{
+            padding: 0 0 0 24px;
+		}
+
+		// .search__icon
+
+		&__icon {
+		}
+}
